@@ -1,0 +1,17 @@
+package com.Tns.interfaces;
+
+public class Jio implements phone{
+	public void call(){
+		System.out.println("call from jio");
+		
+		
+	}
+
+	@Override
+	public void sms() {
+		// TODO Auto-generated method stub
+		System.out.println("sms from jio");
+		
+	}
+	
+}
